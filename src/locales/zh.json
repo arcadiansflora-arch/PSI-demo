@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "PSI 管理系统",
+    "subtitle": "库存模拟系统"
+  },
+  "nav": {
+    "spain": "西班牙 (ES)",
+    "italy": "意大利 (IT)",
+    "france": "法国 (FR)",
+    "portugal": "葡萄牙 (PT)",
+    "regionalDashboard": "区域总看板"
+  },
+  "buttons": {
+    "importData": "导入数据",
+    "downloadTemplate": "下载模板",
+    "recalculate": "重新计算",
+    "showBufferRows": "显示缓冲行",
+    "hideBufferRows": "隐藏缓冲行",
+    "showHistoricalMonths": "显示历史月份",
+    "hideHistoricalMonths": "隐藏历史月份"
+  },
+  "kpi": {
+    "currentMonth": "当前月份",
+    "totalClosingStock": "总库存",
+    "averageMOS": "平均 MOS",
+    "totalSkus": "SKU 总数"
+  },
+  "table": {
+    "psiDashboard": "PSI 看板",
+    "psiDimension": "PSI 维度",
+    "sku": "SKU",
+    "bu": "BU",
+    "category": "分类",
+    "series": "系列",
+    "materialCode": "物料编码"
+  },
+  "dimensions": {
+    "openingStock": "期初库存",
+    "si": "SI",
+    "arrival": "到货",
+    "so": "SO",
+    "closingStock": "期末库存",
+    "mos": "MOS",
+    "mosStatus": "MOS 状态",
+    "deEuBuffer": "DE/EU 仓库缓冲",
+    "closingStockBuffer": "期末库存 (+缓冲)",
+    "mosBuffer": "MOS (+缓冲)"
+  },
+  "mosStatus": {
+    "overstock": "库存过高",
+    "healthy": "健康",
+    "oosRisk": "缺货风险",
+    "almostOos": "即将缺货/缺货"
+  },
+  "mtd": {
+    "mtdProgress": "MTD 进度",
+    "actual": "实际",
+    "target": "目标",
+    "progress": "进度",
+    "monthlyTarget": "月度目标"
+  },
+  "messages": {
+    "calculationsCompleted": "计算完成",
+    "importSuccess": "导入成功",
+    "importFailed": "导入失败",
+    "loadFailed": "数据加载失败",
+    "saveFailed": "保存失败"
+  }
+}

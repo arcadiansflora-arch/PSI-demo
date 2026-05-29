@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "PSI Management System",
+    "subtitle": "Inventory Simulation System"
+  },
+  "nav": {
+    "spain": "Spain (ES)",
+    "italy": "Italy (IT)",
+    "france": "France (FR)",
+    "portugal": "Portugal (PT)",
+    "regionalDashboard": "Regional Dashboard"
+  },
+  "buttons": {
+    "importData": "Import Data",
+    "downloadTemplate": "Download Template",
+    "recalculate": "Recalculate",
+    "showBufferRows": "Show Buffer Rows",
+    "hideBufferRows": "Hide Buffer Rows",
+    "showHistoricalMonths": "Show Historical Months",
+    "hideHistoricalMonths": "Hide Historical Months"
+  },
+  "kpi": {
+    "currentMonth": "Current Month",
+    "totalClosingStock": "Total Closing Stock",
+    "averageMOS": "Average MOS",
+    "totalSkus": "Total SKUs"
+  },
+  "table": {
+    "psiDashboard": "PSI Dashboard",
+    "psiDimension": "PSI Dimension",
+    "sku": "SKU",
+    "bu": "BU",
+    "category": "Category",
+    "series": "Series",
+    "materialCode": "Material Code"
+  },
+  "dimensions": {
+    "openingStock": "Opening Stock",
+    "si": "SI",
+    "arrival": "Arrival",
+    "so": "SO",
+    "closingStock": "Closing Stock",
+    "mos": "MOS",
+    "mosStatus": "MOS Status",
+    "deEuBuffer": "DE/EU Warehouse Buffer",
+    "closingStockBuffer": "Closing Stock (+Buffer)",
+    "mosBuffer": "MOS (+Buffer)"
+  },
+  "mosStatus": {
+    "overstock": "Overstock",
+    "healthy": "Healthy",
+    "oosRisk": "OOS Risk",
+    "almostOos": "Almost OOS/OOS"
+  },
+  "mtd": {
+    "mtdProgress": "MTD Progress",
+    "actual": "Actual",
+    "target": "Target",
+    "progress": "Progress",
+    "monthlyTarget": "Monthly Target"
+  },
+  "messages": {
+    "calculationsCompleted": "Calculations completed",
+    "importSuccess": "Import completed",
+    "importFailed": "Import failed",
+    "loadFailed": "Failed to load data",
+    "saveFailed": "Failed to save"
+  }
+}
