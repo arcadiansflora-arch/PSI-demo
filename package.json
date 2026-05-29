@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "client": "vite",
     "server": "nodemon server/index.js --ignore 'data/*' --ignore 'node_modules/*' --ignore 'server/uploads/*'",
-    "build": "vite build",
+    "build": "./node_modules/.bin/vite build",
     "preview": "vite preview"
   },
   "dependencies": {
