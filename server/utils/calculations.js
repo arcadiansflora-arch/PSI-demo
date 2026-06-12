@@ -81,15 +81,15 @@ export function calculateSkuCascade(skuItem, startMonthIndex = 0) {
     const month = months[i];
     const monthData = skuItem.months[month];
     
-    // 1. 计算 Arrival（到货 = 上上个月的SI，固定2个月交期延迟）
+    // 1. 计算 Arrival（到货 = 上上个月的SO，固定2个月交期延迟）
     if (i >= 2) {
       const monthMinus2 = months[i - 2];
-      const siTwoMonthsAgo = skuItem.months[monthMinus2]?.si || 0;
-      monthData.arrival = siTwoMonthsAgo;
+      const soTwoMonthsAgo = skuItem.months[monthMinus2]?.so || 0;
+      monthData.arrival = soTwoMonthsAgo;
     } else if (i === 1) {
-      // 第二个月：第一个月的SI作为到货
+      // 第二个月：第一个月的SO作为到货
       const monthMinus1 = months[i - 1];
-      monthData.arrival = skuItem.months[monthMinus1]?.si || 0;
+      monthData.arrival = skuItem.months[monthMinus1]?.so || 0;
     } else {
       // 首月无到货
       monthData.arrival = 0;
